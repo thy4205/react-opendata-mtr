@@ -1,64 +1,54 @@
 {
-  "routes": [
-    {
-      "short": "AEL",
+  "routes": {
+    "AEL": {
       "nameChi": "機場快綫",
       "nameEng": "Airport Express",
       "colour": "#1c7670"
     },
-    {
-      "short": "DRL",
+    "DRL": {
       "nameChi": "迪士尼綫",
       "nameEng": "Disney Resort Line",
       "colour": "#f550a6"
     },
-    {
-      "short": "EAL",
+    "EAL": {
       "nameChi": "東鐵綫",
       "nameEng": "East Rail Line",
       "colour": "#53b7e8"
     },
-    {
-      "short": "ISL",
+    "ISL": {
       "nameChi": "港島綫",
       "nameEng": "Island Line",
       "colour": "#0860a8"
     },
-    {
-      "short": "KTL",
+    "KTL": {
       "nameChi": "觀塘綫",
       "nameEng": "Kwun Tong Line",
       "colour": "#1a9431"
     },
-    {
-      "short": "TML",
+    "TML": {
       "nameChi": "屯馬綫",
       "nameEng": "Tuen Ma Line",
       "colour": "#9a3b26"
     },
-    {
-      "short": "TCL",
+    "TCL": {
       "nameChi": "東涌綫",
       "nameEng": "Tung Chung Line",
       "colour": "#fe7f1d"
     },
-    {
-      "short": "TKL",
+    "TKL": {
       "nameChi": "將軍澳綫",
       "nameEng": "Tseung Kwan O Line",
       "colour": "#6b208b"
     },
-    {
-      "short": "TWL",
+    "TWL": {
       "nameChi": "荃灣綫",
       "nameEng": "Tsuen Wan Line",
       "colour": "#ff0000"
     },
-    {
-      "short": "SIL",
+    "SIL": {
       "nameChi": "南港島綫",
       "nameEng": "South Island Line",
       "colour": "#b5bd00"
     }
-  ]
+  }
 }

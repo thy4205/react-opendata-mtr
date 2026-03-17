@@ -3,6 +3,11 @@
   margin: 0 auto;
   padding: 1rem;
   text-align: center;
+  width: 720px;
+}
+.platformNumber{
+  font-size: 25px;
+  
 }
 
 .logo {
