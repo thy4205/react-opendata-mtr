@@ -132,7 +132,7 @@ function App() {
       var destFullName = [fullList[lineValue][arrivalTime[direction][seq]['dest']]['cname'], fullList[lineValue][arrivalTime[direction][seq]['dest']]['ename']]
       //console.log(fullList[lineValue][arrivalTime[direction][seq]['dest']]['cname']);
     }
-    return <tr><td>{seq}</td><td><div className="platformNumber" style={{ "backgroundColor": routeColour, color: 'white', width: "40px","border-radius":"20px" }}>{arrivalTime[direction][seq]['plat'] !== 'undefined' ? arrivalTime[direction][seq]['plat'] : ""}</div></td><td><Box component="span" sx={{ display: 'block', textAlign: 'left' }}>{arrivalTime[direction][seq]['dest'] !== 'undefined' ? destFullName[0] : ""}</Box><Box component="span" sx={{ display: 'block', textAlign: 'left' }}>{arrivalTime[direction][seq]['dest'] !== 'undefined' ? destFullName[1] : ""}</Box></td><td>{arrivalTime[direction][seq]['ttnt'] ? (arrivalTime[direction][seq]['ttnt'] == 0 ? "即將到達" : arrivalTime[direction][seq]['ttnt'] + "分鐘") : ""}</td></tr>
+    return <tr><td style={{ 'width': "50px" }}><div className="platformNumber" style={{ "backgroundColor": routeColour, color: 'white', width: "40px", "borderRadius": "20px" }}>{arrivalTime[direction][seq]['plat'] !== 'undefined' ? arrivalTime[direction][seq]['plat'] : ""}</div></td><td><Box component="span" sx={{ display: 'block', textAlign: 'left' }}>{arrivalTime[direction][seq]['dest'] !== 'undefined' ? destFullName[0] : ""}</Box><Box component="span" sx={{ display: 'block', textAlign: 'left' }}>{arrivalTime[direction][seq]['dest'] !== 'undefined' ? destFullName[1] : ""}</Box></td><td>{arrivalTime[direction][seq]['ttnt'] ? (arrivalTime[direction][seq]['ttnt'] == 0 ? "即將到達" : arrivalTime[direction][seq]['ttnt'] + "分鐘") : ""}</td></tr>
   }
 
   if (loading) return <p>Loading data...</p>;
@@ -141,8 +141,8 @@ function App() {
   return (
     <>
       <Container maxWidth="sm">
-        <h1>資訊顯示</h1>
-
+        <h1>MTR資訊顯示</h1>
+        <hr style={{ "border": "none", "height": "4px", "backgroundColor": routeColour }}></hr>
         <form>
           {/*  <select id="line" value={lineValue} >
             <option value="">Select a line</option>
